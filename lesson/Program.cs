@@ -12,3 +12,16 @@ namespace lesson
         }
     }
 }
+/*
+    Person
+    MedicalCard
+        Страховка
+        Болезнь
+    DoctorQueueService
+     
+     
+     
+     
+     
+     
+     */
