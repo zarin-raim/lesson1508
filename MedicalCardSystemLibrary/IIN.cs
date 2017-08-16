@@ -8,7 +8,7 @@ namespace MedicalCardSystemLibrary
     public class IIN
     {
         private string _number;
-        private int _length;
+        private int Length { get; set; }
 
         public IIN()
         {
@@ -20,18 +20,6 @@ namespace MedicalCardSystemLibrary
         {
             Length = Length;
             Number = number;
-        }
-
-        public int Length
-        {
-            get
-            {
-                return _length;
-            }
-            set
-            {
-                _length = value;
-            }
         }
 
         public string Number

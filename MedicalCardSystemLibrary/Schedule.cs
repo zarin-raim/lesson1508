@@ -7,7 +7,7 @@ namespace MedicalCardSystemLibrary
 {
     public class Schedule
     {
-        public DateTime AdmissionTime { get; set; }
+        public DateTime _admissionTime;
         public bool IsFree { get; set; }
     }
 }

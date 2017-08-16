@@ -5,8 +5,9 @@ using System.Text;
 
 namespace MedicalCardSystemLibrary
 {
-    class Order
+    public class Order
     {
-        
+        Person _patient;
+        Doctor _doctor;
     }
 }

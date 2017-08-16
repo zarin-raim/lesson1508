@@ -11,12 +11,15 @@ namespace MedicalCardSystemLibrary
         private PhoneNumber _phoneNumber;
         private FullName _fullName;
 
+        private MedicalCard _medicalCard;
+
         public Person()
         {
             _iin = new IIN();
             _phoneNumber = new PhoneNumber();
             _fullName = new FullName();
         }
+
         public Person(string firstName, string lastName, string iin, string phoneNumber)
         {
             _fullName = new FullName(firstName, lastName);

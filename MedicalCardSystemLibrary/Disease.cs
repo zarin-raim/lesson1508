@@ -5,12 +5,9 @@ using System.Text;
 
 namespace MedicalCardSystemLibrary
 {
-    public class Doctor
+    public class Disease
     {
-        private Person _doctor;
-        private Specialist _specialist;
-        private Schedule[] _shedule;
-
+        public string Name { get; set; }
 
     }
 }
