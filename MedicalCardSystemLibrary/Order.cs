@@ -7,7 +7,8 @@ namespace MedicalCardSystemLibrary
 {
     public class Order
     {
-        Person _patient;
-        Doctor _doctor;
+        private Person _patient;
+        private Doctor _doctor;
+
     }
 }

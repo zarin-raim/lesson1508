@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MedicalCardSystemLibrary
 {
-    class DiseaseStory
+    public class DiseaseStory
     {
         private Disease _disease;
         private DateTime _timeOfIlness;
